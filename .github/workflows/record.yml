@@ -1,0 +1,43 @@
+name: Record choice or saved recipe
+
+on:
+  repository_dispatch:
+    types: [save-recipe, choose-plan, recipe-feedback, week-review, pantry]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: supine-record
+  cancel-in-progress: false
+
+jobs:
+  record:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Apply
+        id: apply
+        env:
+          EVENT: ${{ github.event.action }}
+          WEEK: ${{ github.event.client_payload.week }}
+          RECIPE_ID: ${{ github.event.client_payload.recipe_id }}
+          PLAN_ID: ${{ github.event.client_payload.plan_id }}
+          NOTES: ${{ github.event.client_payload.notes }}
+          VERDICT: ${{ github.event.client_payload.verdict }}
+          TASTE: ${{ github.event.client_payload.taste }}
+          EFFORT: ${{ github.event.client_payload.effort }}
+          ITEMS: ${{ github.event.client_payload.items }}
+        run: python3 .github/scripts/record.py
+
+      - name: Commit and push
+        env:
+          MESSAGE: ${{ steps.apply.outputs.message }}
+        run: |
+          git config user.name "recipe-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/book.json data/history.json data/pantry.json
+          git diff --cached --quiet && { echo "nothing to commit"; exit 0; }
+          git commit -m "$MESSAGE"
+          git push

@@ -1,0 +1,53 @@
+{
+  "_about": "Ingredient catalog. Nutrition is per 100 g AS BOUGHT (raw, dry, or drained for canned). Values are USDA FoodData Central / typical Canadian labels, rounded; treat as +/-10%. Recipes reference these ids; scripts/validate.mjs fails on any id not listed here.",
+  "_fields": "kcal, p (protein g), f (fat g), c (carb g), fib (fibre g). piece = grams per item (shown as a count). pack = what the store sells; byPack = talk about it in packs (cans, jars). liquid = show ml. pantry = assumed on hand, listed on the Pantry check instead of the shopping list.",
+
+  "chicken-breast":      { "name": "Chicken breast, boneless skinless", "short": "chicken breast", "group": "meat", "kcal": 120, "p": 22.5, "f": 2.6, "c": 0, "fib": 0 },
+  "chicken-thigh":       { "name": "Chicken thighs, boneless skinless", "short": "chicken thighs", "group": "meat", "kcal": 121, "p": 19.7, "f": 4.1, "c": 0, "fib": 0 },
+  "rotisserie-chicken":  { "name": "Rotisserie chicken (meat only, no skin)", "short": "rotisserie chicken meat", "group": "meat", "kcal": 180, "p": 27.5, "f": 7.5, "c": 0, "fib": 0, "pack": { "g": 450, "name": "chicken", "plural": "chickens" }, "note": "One store chicken gives about 450 g of meat. Pre-pulled rotisserie meat or plain pre-cooked chicken strips also work." },
+  "ground-turkey":       { "name": "Lean ground turkey (93% lean)", "short": "lean ground turkey", "group": "meat", "kcal": 150, "p": 18.7, "f": 8.3, "c": 0, "fib": 0, "pack": { "g": 450, "name": "pack" } },
+  "lean-ground-beef":    { "name": "Lean ground beef (90% lean)", "short": "lean ground beef", "group": "meat", "kcal": 176, "p": 20, "f": 10, "c": 0, "fib": 0, "pack": { "g": 450, "name": "pack" } },
+  "eggs":                { "name": "Eggs, large", "short": "eggs", "group": "dairy", "kcal": 143, "p": 12.6, "f": 9.5, "c": 0.7, "fib": 0, "piece": 50, "pieceName": "egg", "pack": { "g": 600, "name": "dozen", "plural": "dozen" } },
+  "egg-whites":          { "name": "Liquid egg whites", "short": "liquid egg whites", "group": "dairy", "kcal": 52, "p": 10.9, "f": 0.2, "c": 0.7, "fib": 0, "liquid": true, "pack": { "g": 500, "name": "carton" } },
+
+  "greek-yogurt":        { "name": "Plain Greek yogurt, 2%", "short": "plain Greek yogurt", "group": "dairy", "kcal": 73, "p": 9.9, "f": 1.9, "c": 3.9, "fib": 0, "pack": { "g": 750, "name": "tub" } },
+  "cottage-cheese":      { "name": "Cottage cheese, 2%", "short": "cottage cheese", "group": "dairy", "kcal": 81, "p": 10.5, "f": 2.3, "c": 4.8, "fib": 0, "pack": { "g": 500, "name": "tub" } },
+  "feta":                { "name": "Feta, crumbled", "short": "feta", "group": "dairy", "kcal": 264, "p": 14.2, "f": 21.3, "c": 4.1, "fib": 0, "pack": { "g": 200, "name": "tub" } },
+  "cheddar":             { "name": "Shredded cheddar", "short": "shredded cheddar", "group": "dairy", "kcal": 403, "p": 24.9, "f": 33.1, "c": 1.3, "fib": 0, "pack": { "g": 320, "name": "bag" } },
+  "parmesan":            { "name": "Parmesan, grated", "short": "grated parmesan", "group": "dairy", "kcal": 392, "p": 35.8, "f": 25.8, "c": 3.2, "fib": 0, "pack": { "g": 150, "name": "tub" } },
+  "milk":                { "name": "Milk, 2% (or unsweetened soy)", "short": "milk", "group": "dairy", "kcal": 50, "p": 3.3, "f": 2.0, "c": 4.8, "fib": 0, "liquid": true, "pack": { "g": 2000, "name": "2 L carton" } },
+
+  "pear":                { "name": "Pears (or apples)", "short": "pear", "group": "produce", "kcal": 57, "p": 0.4, "f": 0.1, "c": 15.2, "fib": 3.1, "piece": 178, "pieceName": "pear" },
+  "clementine":          { "name": "Clementines / mandarins", "short": "clementines", "group": "produce", "kcal": 47, "p": 0.9, "f": 0.2, "c": 12, "fib": 1.7, "piece": 74, "pieceName": "clementine" },
+  "kimchi":              { "name": "Kimchi", "short": "kimchi", "group": "produce", "kcal": 15, "p": 1.1, "f": 0.5, "c": 2.4, "fib": 1.6, "pack": { "g": 500, "name": "jar" }, "note": "In the refrigerated section. Keeps for weeks once open." },
+
+  "pepper-onion-strips": { "name": "Frozen pepper & onion strips", "short": "frozen pepper & onion strips", "group": "frozen", "kcal": 28, "p": 1.0, "f": 0.2, "c": 6.0, "fib": 1.8, "pack": { "g": 600, "name": "bag" }, "note": "Sold as fajita or stir-fry pepper mix. Pre-cut: no chopping." },
+  "frozen-broccoli":     { "name": "Frozen broccoli florets", "short": "frozen broccoli", "group": "frozen", "kcal": 26, "p": 2.8, "f": 0.3, "c": 4.8, "fib": 3.0, "pack": { "g": 750, "name": "bag" } },
+  "frozen-corn":         { "name": "Frozen corn", "short": "frozen corn", "group": "frozen", "kcal": 88, "p": 3.0, "f": 0.8, "c": 20.7, "fib": 2.0, "pack": { "g": 750, "name": "bag" } },
+  "frozen-spinach":      { "name": "Frozen chopped spinach", "short": "frozen spinach", "group": "frozen", "kcal": 29, "p": 3.6, "f": 0.5, "c": 4.2, "fib": 2.9, "pack": { "g": 300, "name": "box" } },
+  "stir-fry-veg":        { "name": "Frozen stir-fry vegetable blend", "short": "frozen stir-fry vegetables", "group": "frozen", "kcal": 30, "p": 1.6, "f": 0.2, "c": 6.0, "fib": 2.2, "pack": { "g": 750, "name": "bag" } },
+  "frozen-berries":      { "name": "Frozen mixed berries", "short": "frozen mixed berries", "group": "frozen", "kcal": 50, "p": 0.8, "f": 0.3, "c": 12, "fib": 3.5, "pack": { "g": 600, "name": "bag" } },
+  "edamame":             { "name": "Frozen shelled edamame", "short": "shelled edamame", "group": "frozen", "kcal": 121, "p": 11.9, "f": 5.2, "c": 8.9, "fib": 5.2, "pack": { "g": 500, "name": "bag" } },
+
+  "quinoa":              { "name": "Quinoa", "short": "quinoa", "group": "pantry", "kcal": 368, "p": 14.1, "f": 6.1, "c": 64.2, "fib": 7.0, "pack": { "g": 900, "name": "bag" } },
+  "brown-rice":          { "name": "Brown rice", "short": "brown rice", "group": "pantry", "kcal": 367, "p": 7.5, "f": 3.2, "c": 76.2, "fib": 3.6, "pack": { "g": 900, "name": "bag" } },
+  "ww-pasta":            { "name": "Whole-wheat rotini", "short": "whole-wheat rotini", "group": "pantry", "kcal": 352, "p": 14.6, "f": 2.5, "c": 71.3, "fib": 8.0, "pack": { "g": 375, "name": "box" } },
+  "rolled-oats":         { "name": "Large-flake rolled oats", "short": "rolled oats", "group": "pantry", "kcal": 379, "p": 13.2, "f": 6.5, "c": 67.7, "fib": 10.1, "pack": { "g": 1000, "name": "bag" } },
+  "chia":                { "name": "Chia seeds", "short": "chia seeds", "group": "pantry", "kcal": 486, "p": 16.5, "f": 30.7, "c": 42.1, "fib": 34.4, "pack": { "g": 300, "name": "bag" } },
+  "pepitas":             { "name": "Pumpkin seeds (pepitas), roasted", "short": "pumpkin seeds", "group": "pantry", "kcal": 574, "p": 30, "f": 49, "c": 15, "fib": 6.5, "pack": { "g": 200, "name": "bag" } },
+  "black-beans":         { "name": "Black beans, canned", "short": "black beans", "group": "pantry", "kcal": 120, "p": 8.0, "f": 0.5, "c": 21, "fib": 7.5, "byPack": true, "pack": { "g": 300, "name": "can" }, "note": "540 mL / 19 oz cans, about 300 g drained. Drain and rinse." },
+  "kidney-beans":        { "name": "Red kidney beans, canned", "short": "kidney beans", "group": "pantry", "kcal": 120, "p": 8.0, "f": 0.5, "c": 21, "fib": 6.4, "byPack": true, "pack": { "g": 300, "name": "can" }, "note": "540 mL cans. Drain and rinse." },
+  "chickpeas":           { "name": "Chickpeas, canned", "short": "chickpeas", "group": "pantry", "kcal": 139, "p": 7.0, "f": 2.5, "c": 22.5, "fib": 6.4, "byPack": true, "pack": { "g": 300, "name": "can" }, "note": "540 mL cans. Drain and rinse." },
+  "lentils":             { "name": "Lentils, canned", "short": "lentils", "group": "pantry", "kcal": 116, "p": 9.0, "f": 0.4, "c": 20, "fib": 7.9, "byPack": true, "pack": { "g": 300, "name": "can" }, "note": "540 mL cans. Drain and rinse." },
+  "diced-tomatoes":      { "name": "Diced tomatoes, canned", "short": "diced tomatoes", "group": "pantry", "kcal": 20, "p": 1.0, "f": 0.2, "c": 4.0, "fib": 1.2, "byPack": true, "pack": { "g": 796, "name": "can" }, "note": "796 mL / 28 oz can, with juice." },
+  "pineapple":           { "name": "Pineapple tidbits, canned in juice", "short": "pineapple tidbits", "group": "pantry", "kcal": 60, "p": 0.4, "f": 0.1, "c": 15.7, "fib": 0.8, "byPack": true, "pack": { "g": 240, "name": "can" }, "note": "398 mL cans, about 240 g drained." },
+  "ww-tortilla":         { "name": "Small whole-wheat tortillas (6–7 inch)", "short": "small whole-wheat tortillas", "group": "bakery", "kcal": 290, "p": 9.5, "f": 7.0, "c": 46, "fib": 7.0, "piece": 42, "pieceName": "tortilla", "pack": { "g": 420, "name": "pack of 10", "plural": "packs of 10" } },
+
+  "hummus":              { "name": "Hummus", "short": "hummus", "group": "sauces", "kcal": 166, "p": 7.9, "f": 9.6, "c": 14.3, "fib": 6.0, "pack": { "g": 227, "name": "tub" } },
+  "marinara":            { "name": "Marinara / tomato-basil pasta sauce", "short": "marinara sauce", "group": "sauces", "kcal": 50, "p": 1.4, "f": 1.5, "c": 8.0, "fib": 1.9, "byPack": true, "pack": { "g": 680, "name": "jar" }, "note": "650 mL jar. Pick one under ~400 mg sodium per 125 mL." },
+  "salsa":               { "name": "Salsa, medium", "short": "salsa", "group": "sauces", "kcal": 36, "p": 1.5, "f": 0.2, "c": 6.6, "fib": 1.9, "byPack": true, "pack": { "g": 650, "name": "jar" }, "note": "650 mL jar, any heat level you like." },
+  "teriyaki":            { "name": "Teriyaki sauce", "short": "teriyaki sauce", "group": "sauces", "kcal": 89, "p": 5.9, "f": 0, "c": 15.6, "fib": 0.1, "pack": { "g": 400, "name": "bottle" } },
+  "korean-bbq-sauce":    { "name": "Korean BBQ (bulgogi) sauce", "short": "Korean BBQ sauce", "group": "sauces", "kcal": 160, "p": 1.5, "f": 1.0, "c": 36, "fib": 0.5, "pack": { "g": 450, "name": "bottle" } },
+
+  "olive-oil":           { "name": "Olive oil", "short": "olive oil", "group": "pantry", "kcal": 884, "p": 0, "f": 100, "c": 0, "fib": 0, "pantry": true }
+}

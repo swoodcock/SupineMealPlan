@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Supine Meals">
+<meta name="theme-color" content="#4f5d9e">
+<title>Supine Meal Plan</title>
+<link rel="stylesheet" href="app.css?v=2">
+</head>
+<body data-page="plan">
+<header>
+  <h1>🛋️ Supine Meal Plan</h1>
+  <div class="sub"><span id="weeklabel">Loading…</span> · <a href="book.html">📖 Recipe Book</a></div>
+</header>
+
+<div class="tabs" id="tabbar">
+  <button data-tab="me">👤 Me</button>
+  <button data-tab="options">🍱 Options</button>
+  <button data-tab="week">📅 My week</button>
+  <button data-tab="shop">🛒 Shopping</button>
+  <button data-tab="pantry">📦 Pantry</button>
+  <button data-tab="prep">🔪 Prep day</button>
+</div>
+
+<div class="wrap">
+  <div class="panel" id="tab-me"></div>
+  <div class="panel" id="tab-options"></div>
+  <div class="panel" id="tab-week"></div>
+  <div class="panel" id="tab-shop"></div>
+  <div class="panel" id="tab-pantry"></div>
+  <div class="panel" id="tab-prep"></div>
+</div>
+
+<footer>
+  Portions are worked out on this device from your details, which never leave your phone.<br>
+  Nutrition is estimated from standard food data (±10%). This isn't medical advice; check big changes with your doctor or dietitian.
+</footer>
+
+<script src="engine.js?v=2"></script>
+<script src="app.js?v=2"></script>
+</body>
+</html>
