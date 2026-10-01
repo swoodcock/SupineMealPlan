@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5d6cb3"/>
+      <stop offset="1" stop-color="#3b4780"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g transform="translate(70 115) scale(0.78)">
+    <g fill="none" stroke="#fff" stroke-width="18" stroke-linecap="round" opacity=".8">
+      <path d="M200 196c-22-24 22-44 0-76"/>
+      <path d="M256 186c-22-24 22-44 0-76"/>
+      <path d="M312 196c-22-24 22-44 0-76"/>
+    </g>
+    <path d="M138 276Q256 196 374 276Z" fill="#f4a261"/>
+    <circle cx="214" cy="248" r="13" fill="#2f7d6a"/>
+    <circle cx="292" cy="242" r="11" fill="#2f7d6a"/>
+    <circle cx="254" cy="232" r="9" fill="#e76f51"/>
+    <path d="M112 272H400A144 128 0 0 1 112 272Z" fill="#fff"/>
+    <rect x="204" y="390" width="104" height="20" rx="10" fill="#fff"/>
+  </g>
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif" fill="#fff">
+    <text x="520" y="270" font-size="76" font-weight="700">Supine Meal Plan</text>
+    <text x="522" y="340" font-size="34" opacity=".9">Low-effort weekly meal prep,</text>
+    <text x="522" y="386" font-size="34" opacity=".9">portioned to you.</text>
+    <text x="522" y="462" font-size="25" opacity=".7">3 plans every Friday · one paced prep day · pantry-aware</text>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Full-bleed square: iOS and Android round the corners themselves.
+       The artwork sits inside the central 80% so it survives maskable crops. -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5d6cb3"/>
+      <stop offset="1" stop-color="#3b4780"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <g fill="none" stroke="#fff" stroke-width="18" stroke-linecap="round" opacity=".8">
+    <path d="M200 196c-22-24 22-44 0-76"/>
+    <path d="M256 186c-22-24 22-44 0-76"/>
+    <path d="M312 196c-22-24 22-44 0-76"/>
+  </g>
+  <path d="M138 276Q256 196 374 276Z" fill="#f4a261"/>
+  <circle cx="214" cy="248" r="13" fill="#2f7d6a"/>
+  <circle cx="292" cy="242" r="11" fill="#2f7d6a"/>
+  <circle cx="254" cy="232" r="9" fill="#e76f51"/>
+  <path d="M112 272H400A144 128 0 0 1 112 272Z" fill="#fff"/>
+  <rect x="204" y="390" width="104" height="20" rx="10" fill="#fff"/>
+</svg>
