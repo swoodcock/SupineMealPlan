@@ -49,5 +49,7 @@
   "teriyaki":            { "name": "Teriyaki sauce", "short": "teriyaki sauce", "group": "sauces", "kcal": 89, "p": 5.9, "f": 0, "c": 15.6, "fib": 0.1, "pack": { "g": 400, "name": "bottle" } },
   "korean-bbq-sauce":    { "name": "Korean BBQ (bulgogi) sauce", "short": "Korean BBQ sauce", "group": "sauces", "kcal": 160, "p": 1.5, "f": 1.0, "c": 36, "fib": 0.5, "pack": { "g": 450, "name": "bottle" } },
 
+  "tikka-sauce":         { "name": "Tikka masala / butter-style curry sauce", "short": "tikka masala sauce", "group": "sauces", "kcal": 95, "p": 1.9, "f": 5.5, "c": 9.5, "fib": 1.5, "byPack": true, "pack": { "g": 375, "name": "jar" }, "note": "350-400 mL jar. Pick a medium one; a lower-sodium jar if you can find it." },
+
   "olive-oil":           { "name": "Olive oil", "short": "olive oil", "group": "pantry", "kcal": 884, "p": 0, "f": 100, "c": 0, "fib": 0, "pantry": true }
 }
