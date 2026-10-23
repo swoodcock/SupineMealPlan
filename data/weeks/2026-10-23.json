@@ -1,0 +1,1034 @@
+{
+  "id": "2026-10-23",
+  "label": "Week of October 23, 2026",
+  "days": 7,
+  "fridgeDays": 4,
+  "intro": "Three options this week: Korean and Japanese rice bowls, an Italian pasta plan with the least effort, and comfort chili with freezer burritos. Each one is a breakfast, two mains that swap between lunch and dinner, and a snack, all made in one prep day.",
+  "plans": [
+    {
+      "id": "A",
+      "name": "Korean & Japanese Rice Bowls",
+      "cuisines": [
+        "korean",
+        "japanese"
+      ],
+      "blurb": "Korean BBQ turkey and sous vide teriyaki chicken over one pot of brown rice. Baked oat squares cover breakfast.",
+      "effort": {
+        "activeMin": 84,
+        "standingMin": 15,
+        "span": "about 3 hours, mostly waiting",
+        "level": 2
+      },
+      "appliances": [
+        "Instant Pot",
+        "Sous vide",
+        "Oven"
+      ],
+      "meals": {
+        "breakfast": "A-b",
+        "mains": [
+          "A-m1",
+          "A-m2"
+        ],
+        "snack": "A-s"
+      },
+      "pantry": [
+        "Cinnamon",
+        "Salt & pepper",
+        "Cooking spray"
+      ],
+      "recipes": [
+        {
+          "id": "A-b",
+          "slot": "breakfast",
+          "cuisine": "american",
+          "name": "Baked Berry Oat Squares + Greek Yogurt",
+          "summary": "One pan of oats, eggs, milk and berries baked into squares, with a spoonful of yogurt on top. Reheats in a minute.",
+          "freezer": "great",
+          "freezeTip": "Freezes for up to 3 months. Wrap two squares together; thaw overnight or microwave from frozen for 2 minutes.",
+          "components": [
+            {
+              "id": "oatbake",
+              "name": "Baked berry oat square",
+              "role": "carb",
+              "base": 150,
+              "yield": 1,
+              "batchStep": 0.5,
+              "piece": 150,
+              "pieceName": "square",
+              "ing": {
+                "rolled-oats": 300,
+                "eggs": 200,
+                "milk": 600,
+                "frozen-berries": 400,
+                "chia": 40
+              }
+            },
+            {
+              "id": "yogurt",
+              "name": "Plain Greek yogurt",
+              "role": "protein",
+              "base": 100,
+              "yield": 1,
+              "ing": {
+                "greek-yogurt": 100
+              }
+            }
+          ],
+          "steps": [
+            "Oven to 180°C (350°F). Grease a 9×13 pan (an 8×8 for a half batch).",
+            "Stir the oats, eggs, milk, frozen berries and chia in a big bowl with a big pinch of cinnamon. Batch: {{oatbake}}.",
+            "Pour into the pan and bake 35–40 minutes, until set in the middle.",
+            "Cool and cut into 8 squares (4 for a half batch). Each is about 150 g.",
+            "To eat: microwave a square 60–90 seconds and top with the yogurt (keep yogurt in the fridge)."
+          ],
+          "notes": [
+            "Yogurt cups are fridge-only; the squares freeze."
+          ]
+        },
+        {
+          "id": "A-m1",
+          "slot": "main",
+          "cuisine": "korean",
+          "name": "Korean BBQ Turkey & Veg Rice Bowls",
+          "summary": "Ground turkey simmered in jarred bulgogi-style sauce over brown rice with stir-fry veg and a side of kimchi.",
+          "freezer": "great",
+          "freezeTip": "Freezes for up to 3 months. Reheats well from frozen; add a splash of water to the rice.",
+          "components": [
+            {
+              "id": "turkey",
+              "name": "Korean BBQ turkey",
+              "role": "protein",
+              "base": 92,
+              "yield": 0.8,
+              "batchStep": 0.5,
+              "ing": {
+                "ground-turkey": 900,
+                "korean-bbq-sauce": 225
+              }
+            },
+            {
+              "id": "rice",
+              "name": "Brown rice, cooked",
+              "role": "carb",
+              "base": 130,
+              "yield": 2.6,
+              "ing": {
+                "brown-rice": 100
+              }
+            },
+            {
+              "id": "veg",
+              "name": "Frozen stir-fry veg (straight in)",
+              "role": "veg",
+              "base": 180,
+              "yield": 1,
+              "ing": {
+                "stir-fry-veg": 100
+              }
+            },
+            {
+              "id": "edamame",
+              "name": "Shelled edamame",
+              "role": "carb",
+              "base": 60,
+              "yield": 1,
+              "ing": {
+                "edamame": 100
+              }
+            },
+            {
+              "id": "kimchi",
+              "name": "Kimchi",
+              "role": "fixed",
+              "base": 40,
+              "yield": 1,
+              "side": true,
+              "ing": {
+                "kimchi": 100
+              }
+            }
+          ],
+          "steps": [
+            "Instant Pot on Sauté: crumble in the turkey and brown about 6 minutes, breaking it up with a spoon. Add the sauce and 80 mL water. Batch: {{turkey}}.",
+            "Pressure cook on high for 5 minutes, quick release, then stir.",
+            "Rice: cooked in the Instant Pot together with the other main (see the prep tab).",
+            "Each container: rice, turkey on top, edamame, and a handful of frozen stir-fry veg straight from the bag.",
+            "Keep the kimchi in a separate small tub and add it when you eat."
+          ],
+          "notes": [
+            "The veg cooks when you reheat."
+          ]
+        },
+        {
+          "id": "A-m2",
+          "slot": "main",
+          "cuisine": "japanese",
+          "name": "Sous Vide Teriyaki Chicken & Edamame Bowls",
+          "summary": "Chicken breast cooked gently in the sous vide with teriyaki sauce, over the same brown rice with broccoli.",
+          "freezer": "great",
+          "freezeTip": "Freezes for up to 3 months in its sauce. Reheat covered so it stays juicy.",
+          "components": [
+            {
+              "id": "chicken",
+              "name": "Teriyaki chicken, sliced",
+              "role": "protein",
+              "base": 70,
+              "yield": 0.8,
+              "batchStep": 0.5,
+              "ing": {
+                "chicken-breast": 900,
+                "teriyaki": 200
+              }
+            },
+            {
+              "id": "rice",
+              "name": "Brown rice, cooked",
+              "role": "carb",
+              "base": 130,
+              "yield": 2.6,
+              "ing": {
+                "brown-rice": 100
+              }
+            },
+            {
+              "id": "veg",
+              "name": "Frozen broccoli (straight in)",
+              "role": "veg",
+              "base": 180,
+              "yield": 1,
+              "ing": {
+                "frozen-broccoli": 100
+              }
+            },
+            {
+              "id": "edamame",
+              "name": "Shelled edamame",
+              "role": "carb",
+              "base": 60,
+              "yield": 1,
+              "ing": {
+                "edamame": 100
+              }
+            }
+          ],
+          "steps": [
+            "Sous vide to 65°C (149°F). Put the chicken and teriyaki sauce in zip bags, press out the air and lower in. Batch: {{chicken}}.",
+            "Cook 2 hours. Lift out, slice or shred, and toss with the bag juices.",
+            "Each container: rice, chicken and sauce, edamame, and frozen broccoli straight from the bag."
+          ],
+          "notes": [
+            "Pick a lower-sodium teriyaki if you can find one."
+          ]
+        },
+        {
+          "id": "A-s",
+          "slot": "snack",
+          "cuisine": "american",
+          "name": "Clementines & Greek Yogurt with Pepitas",
+          "summary": "Yogurt, a clementine on the side and a few crunchy pumpkin seeds.",
+          "freezer": "no",
+          "freezeTip": "Yogurt goes grainy when frozen. Keep in the fridge and eat within 5 days.",
+          "components": [
+            {
+              "id": "yogurt",
+              "name": "Plain Greek yogurt",
+              "role": "protein",
+              "base": 95,
+              "yield": 1,
+              "ing": {
+                "greek-yogurt": 100
+              }
+            },
+            {
+              "id": "clem",
+              "name": "Clementines",
+              "role": "carb",
+              "base": 150,
+              "yield": 1,
+              "piece": 74,
+              "pieceName": "clementine",
+              "side": true,
+              "maxScale": 1.4,
+              "ing": {
+                "clementine": 100
+              }
+            },
+            {
+              "id": "pepitas",
+              "name": "Pumpkin seeds",
+              "role": "fixed",
+              "base": 10,
+              "yield": 1,
+              "side": true,
+              "ing": {
+                "pepitas": 100
+              }
+            }
+          ],
+          "steps": [
+            "Spoon yogurt into small containers.",
+            "Keep clementines and seeds separate: peel the fruit when you eat, sprinkle the seeds on top."
+          ],
+          "notes": []
+        }
+      ],
+      "prep": [
+        {
+          "name": "Session 1: rice and oat bake",
+          "when": "Morning",
+          "steps": [
+            {
+              "min": 5,
+              "how": "stand",
+              "text": "Instant Pot, all the rice for both mains: {{A-m1.rice+A-m2.rice}} + 1.6× its weight in water. High pressure 22 minutes, natural release 10 minutes."
+            },
+            {
+              "min": 2,
+              "how": "stand",
+              "text": "Oven to 180°C (350°F)."
+            },
+            {
+              "min": 8,
+              "how": "sit",
+              "text": "Oat bake: {{A-b.oatbake}}. Stir in a bowl, pour into the pan, bake 35–40 minutes."
+            },
+            {
+              "min": 10,
+              "how": "sit",
+              "text": "Sous vide: set the bath to 65°C. Bag {{A-m2.chicken}} with the teriyaki sauce and lower in for 2 hours."
+            },
+            {
+              "min": 40,
+              "how": "rest",
+              "text": "Rest. Spread the rice on a tray to cool when it is done."
+            }
+          ]
+        },
+        {
+          "name": "Session 2: the turkey",
+          "when": "Midday",
+          "steps": [
+            {
+              "min": 8,
+              "how": "stand",
+              "text": "Instant Pot turkey: {{A-m1.turkey}}. Brown, add sauce, high pressure 5 minutes, quick release."
+            },
+            {
+              "min": 3,
+              "how": "sit",
+              "text": "Stir and pour into a bowl to cool."
+            },
+            {
+              "min": 10,
+              "how": "sit",
+              "text": "Lift the chicken out of the bath, slice it, and toss with the juices."
+            },
+            {
+              "min": 30,
+              "how": "rest",
+              "text": "Rest while everything cools."
+            }
+          ]
+        },
+        {
+          "name": "Session 3: portion everything",
+          "when": "Afternoon",
+          "steps": [
+            {
+              "min": 5,
+              "how": "sit",
+              "text": "Cut the oat bake into squares of about 150 g."
+            },
+            {
+              "min": 25,
+              "how": "sit",
+              "text": "At the table with the scale: build each container from the portion card. Frozen veg goes in straight from the bag."
+            },
+            {
+              "min": 5,
+              "how": "sit",
+              "text": "Snack cups for the first {{keepDays}} days."
+            },
+            {
+              "min": 3,
+              "how": "sit",
+              "text": "Label: days 1–{{fridgeDays}} fridge, the rest freezer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "name": "Italian, Least Effort",
+      "cuisines": [
+        "italian"
+      ],
+      "blurb": "Rotisserie chicken marinara pasta and a pressure-cooker turkey-lentil bolognese, one pot of pasta for both. Breakfast is no-cook.",
+      "effort": {
+        "activeMin": 65,
+        "standingMin": 8,
+        "span": "about 1½ hours",
+        "level": 1
+      },
+      "appliances": [
+        "Instant Pot",
+        "Stove"
+      ],
+      "meals": {
+        "breakfast": "B-b",
+        "mains": [
+          "B-m1",
+          "B-m2"
+        ],
+        "snack": "B-s"
+      },
+      "pantry": [
+        "Cinnamon",
+        "Salt & pepper"
+      ],
+      "recipes": [
+        {
+          "id": "B-b",
+          "slot": "breakfast",
+          "cuisine": "american",
+          "name": "Berry Chia Yogurt Parfaits with Oats",
+          "summary": "Greek yogurt layered with a stirred berry-oat-chia base. Nothing to cook.",
+          "freezer": "good",
+          "freezeTip": "Freezes for up to 2 months, though yogurt can turn slightly grainy. Thaw overnight and stir.",
+          "components": [
+            {
+              "id": "base",
+              "name": "Berry oat chia base",
+              "role": "carb",
+              "base": 150,
+              "yield": 1,
+              "batchStep": 0.5,
+              "ing": {
+                "rolled-oats": 300,
+                "milk": 700,
+                "chia": 60,
+                "frozen-berries": 500
+              }
+            },
+            {
+              "id": "yogurt",
+              "name": "Plain Greek yogurt",
+              "role": "protein",
+              "base": 100,
+              "yield": 1,
+              "ing": {
+                "greek-yogurt": 100
+              }
+            }
+          ],
+          "steps": [
+            "In your biggest bowl, stir together {{base}}. Leave 10 minutes, then stir again.",
+            "Weigh the base into each jar and spoon the yogurt on top.",
+            "Eat cold, or microwave 90 seconds and stir."
+          ],
+          "notes": [
+            "Days 5–7 freeze fine."
+          ]
+        },
+        {
+          "id": "B-m1",
+          "slot": "main",
+          "cuisine": "italian",
+          "name": "Rotisserie Chicken Marinara Pasta",
+          "summary": "Whole-wheat pasta with pulled rotisserie chicken, jarred marinara and spinach. Boil, stir, done.",
+          "freezer": "good",
+          "freezeTip": "Freezes for up to 2 months. Pasta softens slightly; add a splash of water on reheat.",
+          "components": [
+            {
+              "id": "chicken",
+              "name": "Rotisserie chicken, pulled",
+              "role": "protein",
+              "base": 60,
+              "yield": 1,
+              "ing": {
+                "rotisserie-chicken": 100
+              }
+            },
+            {
+              "id": "pasta",
+              "name": "Whole-wheat pasta, cooked",
+              "role": "carb",
+              "base": 150,
+              "yield": 2.3,
+              "ing": {
+                "ww-pasta": 100
+              }
+            },
+            {
+              "id": "sauce",
+              "name": "Marinara",
+              "role": "fixed",
+              "base": 110,
+              "yield": 1,
+              "ing": {
+                "marinara": 100
+              }
+            },
+            {
+              "id": "spinach",
+              "name": "Frozen spinach (straight in)",
+              "role": "veg",
+              "base": 70,
+              "yield": 1,
+              "ing": {
+                "frozen-spinach": 100
+              }
+            },
+            {
+              "id": "beans",
+              "name": "Kidney beans",
+              "role": "carb",
+              "base": 50,
+              "yield": 1,
+              "ing": {
+                "kidney-beans": 100
+              }
+            },
+            {
+              "id": "parm",
+              "name": "Grated parmesan",
+              "role": "fixed",
+              "base": 8,
+              "yield": 1,
+              "side": true,
+              "ing": {
+                "parmesan": 100
+              }
+            }
+          ],
+          "steps": [
+            "Pull the chicken off the bones with your hands or two forks.",
+            "Pasta: cooked together with the other main (see the prep tab). Drain and rinse in cool water.",
+            "Drain and rinse {{beans}}.",
+            "Each container: pasta, marinara, chicken, beans and a lump of frozen spinach straight from the bag.",
+            "Sprinkle the parmesan on when you eat."
+          ],
+          "notes": [
+            "Rotisserie chicken is about 450 g of meat per bird."
+          ]
+        },
+        {
+          "id": "B-m2",
+          "slot": "main",
+          "cuisine": "italian",
+          "name": "Turkey & Lentil Bolognese Pasta",
+          "summary": "Ground turkey and lentils in marinara, pressure cooked, over the same whole-wheat pasta.",
+          "freezer": "great",
+          "freezeTip": "Freezes for up to 3 months. The sauce reheats like new.",
+          "components": [
+            {
+              "id": "bolognese",
+              "name": "Turkey & lentil bolognese",
+              "role": "protein",
+              "base": 140,
+              "yield": 0.9,
+              "batchStep": 0.5,
+              "ing": {
+                "ground-turkey": 450,
+                "lentils": 150,
+                "marinara": 680,
+                "pepper-onion-strips": 200
+              }
+            },
+            {
+              "id": "pasta",
+              "name": "Whole-wheat pasta, cooked",
+              "role": "carb",
+              "base": 130,
+              "yield": 2.3,
+              "ing": {
+                "ww-pasta": 100
+              }
+            },
+            {
+              "id": "veg",
+              "name": "Frozen broccoli (straight in)",
+              "role": "veg",
+              "base": 120,
+              "yield": 1,
+              "ing": {
+                "frozen-broccoli": 100
+              }
+            },
+            {
+              "id": "parm",
+              "name": "Grated parmesan",
+              "role": "fixed",
+              "base": 8,
+              "yield": 1,
+              "side": true,
+              "ing": {
+                "parmesan": 100
+              }
+            }
+          ],
+          "steps": [
+            "Instant Pot on Sauté: brown the turkey about 6 minutes.",
+            "Add the rinsed lentils, frozen peppers, marinara and 250 mL water. Don't stir. Batch: {{bolognese}}.",
+            "High pressure 12 minutes, natural release 10 minutes, then stir.",
+            "Each container: pasta, bolognese on top, and frozen broccoli straight from the bag.",
+            "Sprinkle the parmesan on when you eat."
+          ],
+          "notes": [
+            "Lentils go in dry, so they need the water."
+          ]
+        },
+        {
+          "id": "B-s",
+          "slot": "snack",
+          "cuisine": "mediterranean",
+          "name": "Cottage Cheese & Clementines",
+          "summary": "Cottage cheese with a clementine and a few pumpkin seeds. Nothing to make.",
+          "freezer": "no",
+          "freezeTip": "Cottage cheese turns watery when frozen. Keep in the fridge and eat within 5 days.",
+          "components": [
+            {
+              "id": "cottage",
+              "name": "Cottage cheese",
+              "role": "protein",
+              "base": 130,
+              "yield": 1,
+              "ing": {
+                "cottage-cheese": 100
+              }
+            },
+            {
+              "id": "clem",
+              "name": "Clementines",
+              "role": "carb",
+              "base": 150,
+              "yield": 1,
+              "piece": 74,
+              "pieceName": "clementine",
+              "side": true,
+              "maxScale": 1.4,
+              "ing": {
+                "clementine": 100
+              }
+            },
+            {
+              "id": "pepitas",
+              "name": "Pumpkin seeds",
+              "role": "fixed",
+              "base": 10,
+              "yield": 1,
+              "side": true,
+              "ing": {
+                "pepitas": 100
+              }
+            }
+          ],
+          "steps": [
+            "Spoon cottage cheese into small containers.",
+            "Keep fruit and seeds separate and add them when you eat."
+          ],
+          "notes": []
+        }
+      ],
+      "prep": [
+        {
+          "name": "One short session",
+          "when": "Any time",
+          "steps": [
+            {
+              "min": 4,
+              "how": "stand",
+              "text": "Big pot of water on to boil. Pasta for both mains: {{B-m1.pasta+B-m2.pasta}}. Boil about 10 minutes."
+            },
+            {
+              "min": 10,
+              "how": "sit",
+              "text": "Parfait base: {{B-b.base}}. Stir in a bowl and leave to thicken."
+            },
+            {
+              "min": 8,
+              "how": "sit",
+              "text": "Instant Pot: sauté the turkey, then the lentils, peppers, marinara and water for {{B-m2.bolognese}}. High pressure 12 minutes."
+            },
+            {
+              "min": 12,
+              "how": "rest",
+              "text": "Rest. Drain and cool the pasta on a tray."
+            },
+            {
+              "min": 4,
+              "how": "stand",
+              "text": "Drain the pasta and rinse it in cool water."
+            },
+            {
+              "min": 8,
+              "how": "sit",
+              "text": "Pull the rotisserie chicken apart."
+            },
+            {
+              "min": 25,
+              "how": "sit",
+              "text": "At the table with the scale: build each container from the portion card. Frozen spinach and broccoli go in straight from the bag."
+            },
+            {
+              "min": 3,
+              "how": "sit",
+              "text": "Snack cups for the first {{keepDays}} days."
+            },
+            {
+              "min": 3,
+              "how": "sit",
+              "text": "Label: days 1–{{fridgeDays}} fridge, the rest freezer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "name": "Comfort Chili & Burritos",
+      "cuisines": [
+        "american",
+        "mexican"
+      ],
+      "blurb": "A beef and bean chili and a cheddar chicken quinoa bake, one batch of quinoa for both. Freezer breakfast burritos.",
+      "effort": {
+        "activeMin": 100,
+        "standingMin": 22,
+        "span": "about 4 hours, mostly waiting",
+        "level": 2
+      },
+      "appliances": [
+        "Instant Pot",
+        "Oven",
+        "Air fryer"
+      ],
+      "meals": {
+        "breakfast": "C-b",
+        "mains": [
+          "C-m1",
+          "C-m2"
+        ],
+        "snack": "C-s"
+      },
+      "pantry": [
+        "Chili powder (optional)",
+        "Salt & pepper",
+        "Olive oil",
+        "Cooking spray"
+      ],
+      "recipes": [
+        {
+          "id": "C-b",
+          "slot": "breakfast",
+          "cuisine": "mexican",
+          "name": "Egg & Cheddar Breakfast Burritos",
+          "summary": "Scrambled egg, black beans, peppers and cheddar rolled in a whole-wheat tortilla. Freeze, then reheat in the microwave.",
+          "freezer": "great",
+          "freezeTip": "Wrap each burrito in foil or paper. Freezes for up to 3 months; microwave from frozen 2–3 minutes, turning once.",
+          "components": [
+            {
+              "id": "filling",
+              "name": "Egg, bean & cheddar filling",
+              "role": "protein",
+              "base": 145,
+              "yield": 0.9,
+              "batchStep": 0.5,
+              "ing": {
+                "eggs": 450,
+                "egg-whites": 150,
+                "black-beans": 150,
+                "pepper-onion-strips": 200,
+                "cheddar": 80
+              }
+            },
+            {
+              "id": "tortilla",
+              "name": "Whole-wheat tortilla",
+              "role": "carb",
+              "base": 42,
+              "yield": 1,
+              "piece": 42,
+              "pieceName": "tortilla",
+              "ing": {
+                "ww-tortilla": 100
+              }
+            }
+          ],
+          "steps": [
+            "Whisk the eggs and egg whites. Cook in the air fryer or a nonstick pan with the frozen peppers, drained black beans and cheddar. Batch: {{filling}}.",
+            "Spoon the filling onto the tortillas and roll up tightly.",
+            "Wrap each burrito and refrigerate or freeze.",
+            "To eat: microwave 90 seconds, or 2–3 minutes from frozen."
+          ],
+          "notes": []
+        },
+        {
+          "id": "C-m1",
+          "slot": "main",
+          "cuisine": "american",
+          "name": "Instant Pot Beef & Bean Chili with Quinoa",
+          "summary": "Lean beef, kidney beans, tomatoes and salsa in one pot, spooned over quinoa.",
+          "freezer": "great",
+          "freezeTip": "Freezes for up to 3 months. Chili reheats like new.",
+          "components": [
+            {
+              "id": "chili",
+              "name": "Beef & bean chili",
+              "role": "protein",
+              "base": 315,
+              "yield": 0.9,
+              "batchStep": 0.5,
+              "ing": {
+                "lean-ground-beef": 450,
+                "kidney-beans": 300,
+                "diced-tomatoes": 400,
+                "salsa": 325,
+                "pepper-onion-strips": 200
+              }
+            },
+            {
+              "id": "quinoa",
+              "name": "Quinoa, cooked",
+              "role": "carb",
+              "base": 110,
+              "yield": 2.8,
+              "ing": {
+                "quinoa": 100
+              }
+            },
+            {
+              "id": "corn",
+              "name": "Frozen corn (straight in)",
+              "role": "veg",
+              "base": 70,
+              "yield": 1,
+              "ing": {
+                "frozen-corn": 100
+              }
+            },
+            {
+              "id": "cheddar",
+              "name": "Shredded cheddar",
+              "role": "fixed",
+              "base": 12,
+              "yield": 1,
+              "side": true,
+              "ing": {
+                "cheddar": 100
+              }
+            }
+          ],
+          "steps": [
+            "Instant Pot on Sauté: brown the beef about 6 minutes.",
+            "Add the rinsed beans, tomatoes (with juice), salsa and frozen peppers. Don't stir. Batch: {{chili}}.",
+            "High pressure 12 minutes, natural release 10 minutes, then stir.",
+            "Quinoa: cooked in the Instant Pot or rice cooker together with the other main (see the prep tab).",
+            "Each container: quinoa, chili on top, and frozen corn straight from the bag. Sprinkle cheddar on when you eat."
+          ],
+          "notes": [
+            "Add chili powder or hot sauce at the table."
+          ]
+        },
+        {
+          "id": "C-m2",
+          "slot": "main",
+          "cuisine": "american",
+          "name": "Chicken, Broccoli & Cheddar Quinoa Bake",
+          "summary": "Chicken thighs, quinoa, broccoli and cheddar in one baking dish. Mix, bake, portion.",
+          "freezer": "good",
+          "freezeTip": "Freezes for up to 2 months. Add a splash of water on reheat.",
+          "components": [
+            {
+              "id": "chicken",
+              "name": "Baked chicken",
+              "role": "protein",
+              "base": 55,
+              "yield": 0.75,
+              "batchStep": 0.5,
+              "ing": {
+                "chicken-thigh": 900
+              }
+            },
+            {
+              "id": "quinoa",
+              "name": "Quinoa, cooked",
+              "role": "carb",
+              "base": 110,
+              "yield": 2.8,
+              "ing": {
+                "quinoa": 100
+              }
+            },
+            {
+              "id": "veg",
+              "name": "Frozen broccoli (straight in)",
+              "role": "veg",
+              "base": 200,
+              "yield": 1,
+              "ing": {
+                "frozen-broccoli": 100
+              }
+            },
+            {
+              "id": "beans",
+              "name": "Black beans",
+              "role": "carb",
+              "base": 50,
+              "yield": 1,
+              "ing": {
+                "black-beans": 100
+              }
+            },
+            {
+              "id": "cheddar",
+              "name": "Cheddar",
+              "role": "fixed",
+              "base": 15,
+              "yield": 1,
+              "ing": {
+                "cheddar": 100
+              }
+            }
+          ],
+          "steps": [
+            "Oven to 200°C (400°F). Spread the chicken thighs on a lined tray with a little oil, salt and pepper. Batch: {{chicken}}.",
+            "Bake 25–30 minutes until 74°C (165°F) inside. Rest, then slice with kitchen scissors.",
+            "Drain and rinse {{beans}}.",
+            "Each container: quinoa, sliced chicken, beans, cheddar on top and frozen broccoli straight from the bag."
+          ],
+          "notes": [
+            "Reheating melts the cheddar into the quinoa."
+          ]
+        },
+        {
+          "id": "C-s",
+          "slot": "snack",
+          "cuisine": "american",
+          "name": "Berry Chia Pudding Cups",
+          "summary": "Greek yogurt, milk and chia set overnight with berries.",
+          "freezer": "good",
+          "freezeTip": "Freezes for up to 2 months; thaw in the fridge and stir.",
+          "components": [
+            {
+              "id": "pudding",
+              "name": "Chia yogurt base",
+              "role": "protein",
+              "base": 140,
+              "yield": 1,
+              "batchStep": 0.5,
+              "ing": {
+                "greek-yogurt": 400,
+                "milk": 300,
+                "chia": 50
+              }
+            },
+            {
+              "id": "berries",
+              "name": "Frozen berries",
+              "role": "carb",
+              "base": 100,
+              "yield": 1,
+              "ing": {
+                "frozen-berries": 100
+              }
+            }
+          ],
+          "steps": [
+            "Stir {{pudding}} together and leave 10 minutes, then stir again.",
+            "Spoon into small jars over the frozen berries.",
+            "Fridge overnight. Eat cold."
+          ],
+          "notes": []
+        }
+      ],
+      "prep": [
+        {
+          "name": "Session 1: quinoa and chili",
+          "when": "Morning",
+          "steps": [
+            {
+              "min": 5,
+              "how": "stand",
+              "text": "Instant Pot, all the quinoa for both mains: {{C-m1.quinoa+C-m2.quinoa}} + 1.25× its weight in water. High pressure 1 minute, natural release 10 minutes."
+            },
+            {
+              "min": 2,
+              "how": "stand",
+              "text": "Oven to 200°C (400°F)."
+            },
+            {
+              "min": 10,
+              "how": "sit",
+              "text": "Chicken thighs on a lined tray for {{C-m2.chicken}}. Season and slide into the oven."
+            },
+            {
+              "min": 10,
+              "how": "sit",
+              "text": "Instant Pot chili: {{C-m1.chili}}. Brown the beef, add the rest, high pressure 12 minutes."
+            },
+            {
+              "min": 45,
+              "how": "rest",
+              "text": "Rest. Spread the quinoa on a tray to cool."
+            }
+          ]
+        },
+        {
+          "name": "Session 2: burrito filling and snack",
+          "when": "Midday",
+          "steps": [
+            {
+              "min": 5,
+              "how": "sit",
+              "text": "Slice the chicken with kitchen scissors."
+            },
+            {
+              "min": 15,
+              "how": "stand",
+              "text": "Burrito filling: {{C-b.filling}}. Cook in the air fryer or a nonstick pan, then stir in the beans and cheddar."
+            },
+            {
+              "min": 8,
+              "how": "sit",
+              "text": "Chia pudding base: {{C-s.pudding}}. Stir and leave to set."
+            },
+            {
+              "min": 30,
+              "how": "rest",
+              "text": "Rest while everything cools."
+            }
+          ]
+        },
+        {
+          "name": "Session 3: portion everything",
+          "when": "Afternoon",
+          "steps": [
+            {
+              "min": 12,
+              "how": "sit",
+              "text": "Roll the burritos and wrap each one."
+            },
+            {
+              "min": 25,
+              "how": "sit",
+              "text": "At the table with the scale: build each container from the portion card. Frozen broccoli and corn go in straight from the bag."
+            },
+            {
+              "min": 5,
+              "how": "sit",
+              "text": "Fill the snack jars over the berries."
+            },
+            {
+              "min": 3,
+              "how": "sit",
+              "text": "Label: days 1–{{fridgeDays}} fridge, the rest freezer."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
