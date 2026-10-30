@@ -1,0 +1,988 @@
+{
+  "id": "2026-10-30",
+  "label": "Week of October 30, 2026",
+  "days": 7,
+  "fridgeDays": 4,
+  "intro": "Three options this week: Indian chicken tikka and curry, a Mediterranean plan with the least effort, and Mexican rice bowls with freezer egg wraps. Each one is a breakfast, two mains that swap between lunch and dinner, and a snack, all made in one prep day.",
+  "plans": [
+    {
+      "id": "A",
+      "name": "Indian Tikka & Curry",
+      "cuisines": [
+        "indian"
+      ],
+      "blurb": "Chicken tikka and a chickpea chicken curry over one pot of brown rice. Overnight oats cover breakfast.",
+      "effort": {
+        "activeMin": 81,
+        "standingMin": 9,
+        "span": "about 2½ hours, mostly waiting",
+        "level": 2
+      },
+      "appliances": [
+        "Instant Pot"
+      ],
+      "meals": {
+        "breakfast": "A-b",
+        "mains": [
+          "A-m1",
+          "A-m2"
+        ],
+        "snack": "A-s"
+      },
+      "pantry": [
+        "Salt & pepper",
+        "Cinnamon"
+      ],
+      "recipes": [
+        {
+          "id": "A-b",
+          "slot": "breakfast",
+          "cuisine": "american",
+          "name": "Berry Chia Overnight Oats",
+          "summary": "Rolled oats soaked in milk with chia and berries, with Greek yogurt on top. Nothing to cook.",
+          "freezer": "good",
+          "freezeTip": "Freezes for up to 2 months in jars with a little headroom. Thaw overnight in the fridge and stir.",
+          "components": [
+            {
+              "id": "oats",
+              "name": "Berry chia oats",
+              "role": "carb",
+              "base": 160,
+              "yield": 1,
+              "batchStep": 0.5,
+              "ing": {
+                "rolled-oats": 200,
+                "milk": 500,
+                "frozen-berries": 300,
+                "chia": 60
+              }
+            },
+            {
+              "id": "yogurt",
+              "name": "Plain Greek yogurt",
+              "role": "protein",
+              "base": 120,
+              "yield": 1,
+              "ing": {
+                "greek-yogurt": 100
+              }
+            }
+          ],
+          "steps": [
+            "Stir the oats, milk, chia and berries together in a bowl.",
+            "Spoon into jars or containers and leave in the fridge overnight to thicken.",
+            "Add the yogurt on top when you eat."
+          ],
+          "notes": [
+            "Frozen berries thaw into the oats and turn the whole jar purple. That is normal."
+          ]
+        },
+        {
+          "id": "A-m1",
+          "slot": "main",
+          "cuisine": "indian",
+          "name": "Chicken Tikka over Brown Rice",
+          "summary": "Chicken thighs cooked in jarred tikka sauce in the Instant Pot, over brown rice with frozen broccoli.",
+          "freezer": "great",
+          "freezeTip": "Freezes for up to 3 months. Reheats like new; add a splash of water.",
+          "components": [
+            {
+              "id": "chicken",
+              "name": "Chicken thigh",
+              "role": "protein",
+              "base": 80,
+              "yield": 0.75,
+              "ing": {
+                "chicken-thigh": 100
+              }
+            },
+            {
+              "id": "sauce",
+              "name": "Tikka sauce",
+              "role": "fixed",
+              "base": 70,
+              "yield": 1,
+              "ing": {
+                "tikka-sauce": 100
+              }
+            },
+            {
+              "id": "rice",
+              "name": "Brown rice, cooked",
+              "role": "carb",
+              "base": 130,
+              "yield": 2.6,
+              "ing": {
+                "brown-rice": 100
+              }
+            },
+            {
+              "id": "broc",
+              "name": "Frozen broccoli (straight in)",
+              "role": "veg",
+              "base": 130,
+              "yield": 1,
+              "ing": {
+                "frozen-broccoli": 100
+              }
+            }
+          ],
+          "steps": [
+            "Instant Pot: chicken thighs and the tikka sauce for {{chicken}} of cooked chicken, high pressure 10 minutes.",
+            "Shred the chicken in the sauce with two forks.",
+            "Rice: cooked together with the other main (see the prep tab).",
+            "Each container: rice, chicken in sauce, and a lump of frozen broccoli straight from the bag."
+          ],
+          "notes": [
+            "Weigh thighs raw; they lose about a quarter of their weight cooking."
+          ]
+        },
+        {
+          "id": "A-m2",
+          "slot": "main",
+          "cuisine": "indian",
+          "name": "Chickpea & Chicken Spinach Curry",
+          "summary": "Pulled chicken breast, chickpeas, spinach and tomatoes in tikka sauce, over the same brown rice.",
+          "freezer": "great",
+          "freezeTip": "Freezes for up to 3 months. The curry reheats like new.",
+          "components": [
+            {
+              "id": "curry",
+              "name": "Chickpea chicken curry",
+              "role": "protein",
+              "base": 270,
+              "yield": 0.85,
+              "batchStep": 0.5,
+              "ing": {
+                "chicken-breast": 450,
+                "chickpeas": 300,
+                "tikka-sauce": 375,
+                "frozen-spinach": 300,
+                "diced-tomatoes": 400
+              }
+            },
+            {
+              "id": "rice",
+              "name": "Brown rice, cooked",
+              "role": "carb",
+              "base": 130,
+              "yield": 2.6,
+              "ing": {
+                "brown-rice": 100
+              }
+            },
+            {
+              "id": "yogurt",
+              "name": "Greek yogurt dollop",
+              "role": "fixed",
+              "base": 20,
+              "yield": 1,
+              "side": true,
+              "ing": {
+                "greek-yogurt": 100
+              }
+            }
+          ],
+          "steps": [
+            "Instant Pot: chicken breast, drained chickpeas, tikka sauce, tomatoes and frozen spinach for {{curry}}. High pressure 8 minutes.",
+            "Shred the chicken and stir through.",
+            "Rice: cooked together with the other main (see the prep tab).",
+            "Each container: rice and curry. Add the yogurt when you eat."
+          ],
+          "notes": [
+            "Chicken goes in raw; the pressure cooker handles it."
+          ]
+        },
+        {
+          "id": "A-s",
+          "slot": "snack",
+          "cuisine": "indian",
+          "name": "Cottage Cheese & Pineapple",
+          "summary": "Cottage cheese with pineapple and a few pumpkin seeds. Nothing to make.",
+          "freezer": "no",
+          "freezeTip": "Cottage cheese turns watery when frozen. Keep in the fridge and eat within 5 days.",
+          "components": [
+            {
+              "id": "cottage",
+              "name": "Cottage cheese",
+              "role": "protein",
+              "base": 130,
+              "yield": 1,
+              "ing": {
+                "cottage-cheese": 100
+              }
+            },
+            {
+              "id": "pine",
+              "name": "Canned pineapple, drained",
+              "role": "carb",
+              "base": 100,
+              "yield": 1,
+              "side": true,
+              "maxScale": 1.5,
+              "ing": {
+                "pineapple": 100
+              }
+            },
+            {
+              "id": "pepitas",
+              "name": "Pumpkin seeds",
+              "role": "fixed",
+              "base": 10,
+              "yield": 1,
+              "side": true,
+              "ing": {
+                "pepitas": 100
+              }
+            }
+          ],
+          "steps": [
+            "Spoon cottage cheese into small containers.",
+            "Keep pineapple and seeds separate and add them when you eat."
+          ],
+          "notes": []
+        }
+      ],
+      "prep": [
+        {
+          "name": "Session 1: rice and oats",
+          "when": "Morning",
+          "steps": [
+            {
+              "min": 5,
+              "how": "sit",
+              "text": "Brown rice for both mains: {{A-m1.rice+A-m2.rice}}. Rinse, add water, and cook it in the Instant Pot, high pressure 22 minutes."
+            },
+            {
+              "min": 8,
+              "how": "sit",
+              "text": "Overnight oats: {{A-b.oats}}. Stir together and spoon into jars."
+            },
+            {
+              "min": 22,
+              "how": "rest",
+              "text": "Rest while the rice cooks."
+            },
+            {
+              "min": 4,
+              "how": "stand",
+              "text": "Fluff the rice and spread it on a tray to cool."
+            }
+          ]
+        },
+        {
+          "name": "Session 2: tikka and curry",
+          "when": "Midday",
+          "steps": [
+            {
+              "min": 8,
+              "how": "sit",
+              "text": "Instant Pot: chicken thighs and tikka sauce for {{A-m1.chicken}}. High pressure 10 minutes."
+            },
+            {
+              "min": 25,
+              "how": "rest",
+              "text": "Rest while it cooks and releases pressure."
+            },
+            {
+              "min": 6,
+              "how": "sit",
+              "text": "Shred the thigh chicken in its sauce."
+            },
+            {
+              "min": 8,
+              "how": "sit",
+              "text": "Instant Pot again: {{A-m2.curry}}. High pressure 8 minutes."
+            },
+            {
+              "min": 20,
+              "how": "rest",
+              "text": "Rest while it cooks."
+            },
+            {
+              "min": 5,
+              "how": "stand",
+              "text": "Shred the breast chicken and stir the curry."
+            }
+          ]
+        },
+        {
+          "name": "Session 3: portion everything",
+          "when": "Afternoon",
+          "steps": [
+            {
+              "min": 30,
+              "how": "sit",
+              "text": "At the table with the scale: build each container from the portion card. Frozen broccoli goes in straight from the bag."
+            },
+            {
+              "min": 4,
+              "how": "sit",
+              "text": "Snack cups for the first {{keepDays}} days."
+            },
+            {
+              "min": 3,
+              "how": "sit",
+              "text": "Label: days 1–{{fridgeDays}} fridge, the rest freezer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "name": "Mediterranean, Least Effort",
+      "cuisines": [
+        "mediterranean"
+      ],
+      "blurb": "Rotisserie chicken hummus bowls and a turkey chickpea stew over one pot of quinoa. Breakfast is no-cook.",
+      "effort": {
+        "activeMin": 65,
+        "standingMin": 6,
+        "span": "about 1½ hours",
+        "level": 1
+      },
+      "appliances": [
+        "Instant Pot"
+      ],
+      "meals": {
+        "breakfast": "B-b",
+        "mains": [
+          "B-m1",
+          "B-m2"
+        ],
+        "snack": "B-s"
+      },
+      "pantry": [
+        "Salt & pepper"
+      ],
+      "recipes": [
+        {
+          "id": "B-b",
+          "slot": "breakfast",
+          "cuisine": "mediterranean",
+          "name": "Greek Yogurt Berry Chia Pots",
+          "summary": "Greek yogurt with chia and berries, stirred and left to set. Add a pear on the side.",
+          "freezer": "no",
+          "freezeTip": "Yogurt separates when frozen. Keep in the fridge and eat within 5 days.",
+          "components": [
+            {
+              "id": "base",
+              "name": "Yogurt, chia & berry base",
+              "role": "protein",
+              "base": 200,
+              "yield": 1,
+              "batchStep": 0.5,
+              "ing": {
+                "greek-yogurt": 600,
+                "frozen-berries": 200,
+                "chia": 30
+              }
+            },
+            {
+              "id": "pear",
+              "name": "Pear",
+              "role": "carb",
+              "base": 178,
+              "yield": 1,
+              "side": true,
+              "piece": 178,
+              "pieceName": "pear",
+              "maxScale": 1.4,
+              "ing": {
+                "pear": 100
+              }
+            }
+          ],
+          "steps": [
+            "Stir yogurt, berries and chia together in a bowl and leave to thicken.",
+            "Spoon into small containers. Keep the pear whole and eat it alongside."
+          ],
+          "notes": []
+        },
+        {
+          "id": "B-m1",
+          "slot": "main",
+          "cuisine": "mediterranean",
+          "name": "Chicken Hummus Quinoa Bowl",
+          "summary": "Pulled rotisserie chicken over quinoa with hummus, roasted pepper strips and a little feta.",
+          "freezer": "good",
+          "freezeTip": "Freezes for up to 2 months. Add the feta after reheating.",
+          "components": [
+            {
+              "id": "chicken",
+              "name": "Rotisserie chicken, pulled",
+              "role": "protein",
+              "base": 90,
+              "yield": 1,
+              "ing": {
+                "rotisserie-chicken": 100
+              }
+            },
+            {
+              "id": "quinoa",
+              "name": "Quinoa, cooked",
+              "role": "carb",
+              "base": 130,
+              "yield": 2.8,
+              "ing": {
+                "quinoa": 100
+              }
+            },
+            {
+              "id": "hummus",
+              "name": "Hummus",
+              "role": "fixed",
+              "base": 40,
+              "yield": 1,
+              "ing": {
+                "hummus": 100
+              }
+            },
+            {
+              "id": "veg",
+              "name": "Pepper & onion strips",
+              "role": "veg",
+              "base": 110,
+              "yield": 1,
+              "ing": {
+                "pepper-onion-strips": 100
+              }
+            },
+            {
+              "id": "beans",
+              "name": "Chickpeas",
+              "role": "carb",
+              "base": 60,
+              "yield": 1,
+              "ing": {
+                "chickpeas": 100
+              }
+            },
+            {
+              "id": "feta",
+              "name": "Feta",
+              "role": "fixed",
+              "base": 15,
+              "yield": 1,
+              "side": true,
+              "ing": {
+                "feta": 100
+              }
+            }
+          ],
+          "steps": [
+            "Pull the chicken off the bones with your hands or two forks.",
+            "Quinoa: cooked together with the other main (see the prep tab).",
+            "Drain and rinse {{beans}}.",
+            "Each container: quinoa, chicken, chickpeas, pepper strips straight from the bag, and a spoon of hummus.",
+            "Crumble the feta on when you eat."
+          ],
+          "notes": [
+            "Rotisserie chicken is about 450 g of meat per bird."
+          ]
+        },
+        {
+          "id": "B-m2",
+          "slot": "main",
+          "cuisine": "mediterranean",
+          "name": "Turkey & Tomato Chickpea Stew",
+          "summary": "Ground turkey, chickpeas, tomatoes and spinach in the Instant Pot, over the same quinoa.",
+          "freezer": "great",
+          "freezeTip": "Freezes for up to 3 months. The stew reheats like new.",
+          "components": [
+            {
+              "id": "stew",
+              "name": "Turkey chickpea stew",
+              "role": "protein",
+              "base": 300,
+              "yield": 0.85,
+              "batchStep": 0.5,
+              "ing": {
+                "ground-turkey": 450,
+                "chickpeas": 300,
+                "diced-tomatoes": 400,
+                "frozen-spinach": 300,
+                "pepper-onion-strips": 200
+              }
+            },
+            {
+              "id": "quinoa",
+              "name": "Quinoa, cooked",
+              "role": "carb",
+              "base": 130,
+              "yield": 2.8,
+              "ing": {
+                "quinoa": 100
+              }
+            },
+            {
+              "id": "feta",
+              "name": "Feta",
+              "role": "fixed",
+              "base": 12,
+              "yield": 1,
+              "side": true,
+              "ing": {
+                "feta": 100
+              }
+            }
+          ],
+          "steps": [
+            "Instant Pot: sauté the turkey, then add drained chickpeas, tomatoes, frozen spinach and peppers for {{stew}}. High pressure 8 minutes.",
+            "Quinoa: cooked together with the other main (see the prep tab).",
+            "Each container: quinoa and stew. Crumble the feta on when you eat."
+          ],
+          "notes": []
+        },
+        {
+          "id": "B-s",
+          "slot": "snack",
+          "cuisine": "mediterranean",
+          "name": "Hummus, Edamame & Pear",
+          "summary": "Hummus with shelled edamame and a pear. Nothing to cook.",
+          "freezer": "no",
+          "freezeTip": "Hummus and pear do not freeze well. Keep in the fridge and eat within 5 days.",
+          "components": [
+            {
+              "id": "edamame",
+              "name": "Shelled edamame",
+              "role": "protein",
+              "base": 160,
+              "yield": 1,
+              "ing": {
+                "edamame": 100
+              }
+            },
+            {
+              "id": "hummus",
+              "name": "Hummus",
+              "role": "fixed",
+              "base": 20,
+              "yield": 1,
+              "ing": {
+                "hummus": 100
+              }
+            },
+            {
+              "id": "pear",
+              "name": "Pear",
+              "role": "carb",
+              "base": 178,
+              "yield": 1,
+              "side": true,
+              "piece": 178,
+              "pieceName": "pear",
+              "maxScale": 1.4,
+              "ing": {
+                "pear": 100
+              }
+            }
+          ],
+          "steps": [
+            "Spoon hummus into small containers with the thawed edamame.",
+            "Keep the pear whole and eat it alongside."
+          ],
+          "notes": []
+        }
+      ],
+      "prep": [
+        {
+          "name": "One short session",
+          "when": "Any time",
+          "steps": [
+            {
+              "min": 4,
+              "how": "sit",
+              "text": "Quinoa for both mains: {{B-m1.quinoa+B-m2.quinoa}}. Rinse, add water, cook in the Instant Pot, high pressure 1 minute."
+            },
+            {
+              "min": 8,
+              "how": "sit",
+              "text": "Yogurt pots: {{B-b.base}}. Stir in a bowl and leave to thicken."
+            },
+            {
+              "min": 10,
+              "how": "rest",
+              "text": "Rest while the quinoa cooks."
+            },
+            {
+              "min": 6,
+              "how": "stand",
+              "text": "Fluff the quinoa and spread it on a tray to cool."
+            },
+            {
+              "min": 8,
+              "how": "sit",
+              "text": "Instant Pot: sauté the turkey, then add chickpeas, tomatoes, spinach and peppers for {{B-m2.stew}}. High pressure 8 minutes."
+            },
+            {
+              "min": 15,
+              "how": "rest",
+              "text": "Rest while it cooks."
+            },
+            {
+              "min": 8,
+              "how": "sit",
+              "text": "Pull the rotisserie chicken apart."
+            },
+            {
+              "min": 25,
+              "how": "sit",
+              "text": "At the table with the scale: build each container from the portion card. Pepper strips go in straight from the bag."
+            },
+            {
+              "min": 3,
+              "how": "sit",
+              "text": "Snack cups and yogurt pots for the first {{keepDays}} days."
+            },
+            {
+              "min": 3,
+              "how": "sit",
+              "text": "Label: days 1–{{fridgeDays}} fridge, the rest freezer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "name": "Mexican Bowls & Egg Wraps",
+      "cuisines": [
+        "mexican"
+      ],
+      "blurb": "Salsa chicken and taco beef over one pot of brown rice. Egg bake wraps freeze well for breakfast.",
+      "effort": {
+        "activeMin": 85,
+        "standingMin": 20,
+        "span": "about 3 hours, mostly waiting",
+        "level": 2
+      },
+      "appliances": [
+        "Instant Pot",
+        "Oven"
+      ],
+      "meals": {
+        "breakfast": "C-b",
+        "mains": [
+          "C-m1",
+          "C-m2"
+        ],
+        "snack": "C-s"
+      },
+      "pantry": [
+        "Salt & pepper",
+        "Cooking spray"
+      ],
+      "recipes": [
+        {
+          "id": "C-b",
+          "slot": "breakfast",
+          "cuisine": "mexican",
+          "name": "Southwest Egg Bake Breakfast Wraps",
+          "summary": "An oven egg bake with corn, peppers, salsa and cheddar, rolled in a whole-wheat tortilla.",
+          "freezer": "great",
+          "freezeTip": "Freezes for up to 3 months. Wrap each in foil; microwave from frozen for 2 minutes.",
+          "components": [
+            {
+              "id": "bake",
+              "name": "Southwest egg bake",
+              "role": "protein",
+              "base": 160,
+              "yield": 0.9,
+              "batchStep": 0.5,
+              "ing": {
+                "eggs": 500,
+                "egg-whites": 500,
+                "frozen-corn": 200,
+                "pepper-onion-strips": 200,
+                "salsa": 150,
+                "cheddar": 80
+              }
+            },
+            {
+              "id": "tortilla",
+              "name": "Whole-wheat tortilla",
+              "role": "carb",
+              "base": 42,
+              "yield": 1,
+              "piece": 42,
+              "pieceName": "tortilla",
+              "ing": {
+                "ww-tortilla": 100
+              }
+            }
+          ],
+          "steps": [
+            "Whisk the eggs, egg whites and salsa. Stir in frozen corn, pepper strips and cheddar.",
+            "Pour into a lined pan and bake at 180°C (350°F) about 30 minutes until set.",
+            "Cut into portions and roll each in a tortilla."
+          ],
+          "notes": []
+        },
+        {
+          "id": "C-m1",
+          "slot": "main",
+          "cuisine": "mexican",
+          "name": "Salsa Chicken Rice Bowl",
+          "summary": "Chicken breast pressure cooked in jarred salsa with black beans, over brown rice and corn.",
+          "freezer": "great",
+          "freezeTip": "Freezes for up to 3 months. Reheats like new.",
+          "components": [
+            {
+              "id": "chicken",
+              "name": "Salsa chicken & beans",
+              "role": "protein",
+              "base": 250,
+              "yield": 0.8,
+              "batchStep": 0.5,
+              "ing": {
+                "chicken-breast": 450,
+                "salsa": 325,
+                "black-beans": 300
+              }
+            },
+            {
+              "id": "rice",
+              "name": "Brown rice, cooked",
+              "role": "carb",
+              "base": 130,
+              "yield": 2.6,
+              "ing": {
+                "brown-rice": 100
+              }
+            },
+            {
+              "id": "corn",
+              "name": "Frozen corn (straight in)",
+              "role": "veg",
+              "base": 60,
+              "yield": 1,
+              "ing": {
+                "frozen-corn": 100
+              }
+            },
+            {
+              "id": "cheddar",
+              "name": "Cheddar",
+              "role": "fixed",
+              "base": 12,
+              "yield": 1,
+              "side": true,
+              "ing": {
+                "cheddar": 100
+              }
+            }
+          ],
+          "steps": [
+            "Instant Pot: chicken breast, salsa and drained black beans for {{chicken}}. High pressure 10 minutes.",
+            "Shred the chicken in the sauce.",
+            "Rice: cooked together with the other main (see the prep tab).",
+            "Each container: rice, salsa chicken and frozen corn straight from the bag.",
+            "Sprinkle the cheddar on when you eat."
+          ],
+          "notes": []
+        },
+        {
+          "id": "C-m2",
+          "slot": "main",
+          "cuisine": "mexican",
+          "name": "Beef & Pepper Taco Bowl",
+          "summary": "Browned lean beef with peppers, beans and salsa over the same rice.",
+          "freezer": "great",
+          "freezeTip": "Freezes for up to 3 months. Reheats like new.",
+          "components": [
+            {
+              "id": "beef",
+              "name": "Taco beef & beans",
+              "role": "protein",
+              "base": 250,
+              "yield": 0.85,
+              "batchStep": 0.5,
+              "ing": {
+                "lean-ground-beef": 450,
+                "kidney-beans": 300,
+                "salsa": 325,
+                "pepper-onion-strips": 200
+              }
+            },
+            {
+              "id": "rice",
+              "name": "Brown rice, cooked",
+              "role": "carb",
+              "base": 130,
+              "yield": 2.6,
+              "ing": {
+                "brown-rice": 100
+              }
+            },
+            {
+              "id": "broc",
+              "name": "Frozen broccoli (straight in)",
+              "role": "veg",
+              "base": 80,
+              "yield": 1,
+              "ing": {
+                "frozen-broccoli": 100
+              }
+            },
+            {
+              "id": "cheddar",
+              "name": "Cheddar",
+              "role": "fixed",
+              "base": 12,
+              "yield": 1,
+              "side": true,
+              "ing": {
+                "cheddar": 100
+              }
+            }
+          ],
+          "steps": [
+            "Instant Pot: sauté the beef, then add beans, salsa and peppers for {{beef}}. High pressure 8 minutes.",
+            "Rice: cooked together with the other main (see the prep tab).",
+            "Each container: rice, taco beef and a lump of frozen broccoli straight from the bag.",
+            "Sprinkle the cheddar on when you eat."
+          ],
+          "notes": []
+        },
+        {
+          "id": "C-s",
+          "slot": "snack",
+          "cuisine": "mexican",
+          "name": "Edamame & Clementines",
+          "summary": "Shelled edamame with a clementine and a few pumpkin seeds.",
+          "freezer": "good",
+          "freezeTip": "Edamame freezes well; keep clementines separate and fresh.",
+          "components": [
+            {
+              "id": "edamame",
+              "name": "Shelled edamame",
+              "role": "protein",
+              "base": 90,
+              "yield": 1,
+              "ing": {
+                "edamame": 100
+              }
+            },
+            {
+              "id": "clem",
+              "name": "Clementines",
+              "role": "carb",
+              "base": 150,
+              "yield": 1,
+              "side": true,
+              "piece": 74,
+              "pieceName": "clementine",
+              "maxScale": 1.4,
+              "ing": {
+                "clementine": 100
+              }
+            },
+            {
+              "id": "pepitas",
+              "name": "Pumpkin seeds",
+              "role": "fixed",
+              "base": 10,
+              "yield": 1,
+              "side": true,
+              "ing": {
+                "pepitas": 100
+              }
+            }
+          ],
+          "steps": [
+            "Portion edamame into small containers.",
+            "Keep fruit and seeds separate and add them when you eat."
+          ],
+          "notes": []
+        }
+      ],
+      "prep": [
+        {
+          "name": "Session 1: rice and egg bake",
+          "when": "Morning",
+          "steps": [
+            {
+              "min": 5,
+              "how": "sit",
+              "text": "Brown rice for both mains: {{C-m1.rice+C-m2.rice}}. Rinse, add water, cook in the Instant Pot, high pressure 22 minutes."
+            },
+            {
+              "min": 10,
+              "how": "sit",
+              "text": "Egg bake: {{C-b.bake}}. Whisk, stir in the veg and cheese, pour into a lined pan."
+            },
+            {
+              "min": 5,
+              "how": "stand",
+              "text": "Put the pan in the oven at 180°C (350°F)."
+            },
+            {
+              "min": 30,
+              "how": "rest",
+              "text": "Rest while the rice and the bake cook."
+            },
+            {
+              "min": 5,
+              "how": "stand",
+              "text": "Fluff the rice onto a tray; cool and cut the egg bake."
+            }
+          ]
+        },
+        {
+          "name": "Session 2: chicken and beef",
+          "when": "Midday",
+          "steps": [
+            {
+              "min": 8,
+              "how": "sit",
+              "text": "Instant Pot: {{C-m1.chicken}}. High pressure 10 minutes."
+            },
+            {
+              "min": 20,
+              "how": "rest",
+              "text": "Rest while it cooks."
+            },
+            {
+              "min": 6,
+              "how": "sit",
+              "text": "Shred the chicken in its sauce."
+            },
+            {
+              "min": 10,
+              "how": "stand",
+              "text": "Brown the beef in the Instant Pot on sauté, then add beans, salsa and peppers for {{C-m2.beef}}. High pressure 8 minutes."
+            },
+            {
+              "min": 18,
+              "how": "rest",
+              "text": "Rest while it cooks."
+            }
+          ]
+        },
+        {
+          "name": "Session 3: portion everything",
+          "when": "Afternoon",
+          "steps": [
+            {
+              "min": 30,
+              "how": "sit",
+              "text": "At the table with the scale: build each container from the portion card. Frozen corn and broccoli go in straight from the bag. Roll the egg bake in tortillas."
+            },
+            {
+              "min": 3,
+              "how": "sit",
+              "text": "Snack cups for the first {{keepDays}} days."
+            },
+            {
+              "min": 3,
+              "how": "sit",
+              "text": "Label: days 1–{{fridgeDays}} fridge, the rest freezer."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
